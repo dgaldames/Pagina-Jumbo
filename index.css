@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.gris{
+    background-color: rgb(63, 63, 63);
+    padding: 5px;
+}
+
+.gris nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    width: 87%;
+}
+
+.gris a{
+    margin-left: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.barrabusqueda{
+    background-color: #1fa02e;
+    display: flex;
+    padding: 14px;
+}
+
+.barrabusqueda h1{
+    margin-left: 220px;
+    color: white;
+    margin-right: 25px;
+}
+
+.busqueda{
+    display: flex;
+    align-items: center;
+}
+
+.busqueda input{
+    padding-right: 365px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border: none;
+    border-radius: 4px;
+}
+
+.login nav{
+    display: flex;
+    margin-left: 370px;
+    margin-top: 7px;
+}
+
+.login a{
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.categorias{
+    background-color: #238538;
+}
+
+.categorias nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 190px;
+    margin-right: 230px;
+}
+
+.categorias a{
+    text-decoration: none;
+    color: white;
+}
+
+.amarillo{
+    background-color: #a4c735;
+    padding: 12px 24px;
+}
+
+.home-page{
+    margin-bottom: 50px;
+
+}
+
+.slider{
+    width: 100%;
+    height: 360px;
+    overflow: hidden;
+}
+
+.slider ul{
+    display: flex;
+    animation: change 20s infinite ;
+    width: 400%;
+}
+
+.slider li{
+    list-style: none;
+    width: 1903px;
+    height: 360px;
+}
+
+.slider img{
+    width: 100%;
+    height: 100%;
+}
+
+@keyframes change{
+    0%{margin-left: 0;}
+    20%{margin-left: 0;}
+
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+} 
+
